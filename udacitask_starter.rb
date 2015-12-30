@@ -1,6 +1,7 @@
 #!/usr/bun/env ruby
 
 require './todolist.rb'
+require 'json'
 
 # Creates a new todo list
 list = TodoList.new("Shawn's List")
@@ -37,3 +38,15 @@ list.change_name("New List")
 
 # Print the list
 list.print_list
+
+#Build list from JSON
+list2 = TodoList.from_json("{\"name\":\"From List\",\"items\":[{\"description\":\"item5\",\"completed\":true},{\"description\":\"item6\",\"completed\":true}]}")
+
+# Print the list
+list2.print_list
+
+# uncomplete item
+list2.uncomplete(2)
+
+# Print the list
+list2.print_list
