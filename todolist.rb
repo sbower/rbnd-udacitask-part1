@@ -27,10 +27,8 @@ class TodoList
     puts @name
     puts "-" * 25
 
-    i = 1
     @items.each do |item|
-      #puts "#{i} - #{item.description}#{item.description}\tCompleted: #{item.completed?}"
-      puts "[#{item.completed? ? "X" : " "}] #{item.description}"
+      item.print_item
     end
   end
 end
@@ -46,5 +44,9 @@ class Item
 
   def completed?
     @completed
+  end
+
+  def print_item
+    puts "[#{@completed ? "X" : " "}] #{@description}"
   end
 end
