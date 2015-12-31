@@ -14,19 +14,24 @@ class TodoList
     @items.push(Item.new(new_item, completed))
   end
 
-  def remove_item(index = 1)
+  def remove_item(index)
     valid_index?(index)
     @items.delete_at(index - 1)
   end
 
-  def complete(index = 1)
+  def complete(index)
     valid_index?(index)
     @items[index - 1].completed = true
   end
 
-  def uncomplete(index = 1)
+  def uncomplete(index)
     valid_index?(index)
     @items[index - 1].completed = false
+  end
+
+  def edit_task_name(index, new_description)
+    valid_index?(index)
+    @items[index - 1].description = new_description
   end
 
   def move_to_do_up(index)

@@ -81,3 +81,9 @@ list3 = TodoList.from_json(list.to_json)
 
 # print the list
 list3.print_list
+
+# edit task description
+list3.edit_task_name(1, "This is the new task name")
+
+# print the list
+list3.print_list
