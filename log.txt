@@ -1,0 +1,35 @@
+commit 25a694eaed184c9969e42a63ff0114368f3bc5c2
+Author: sbower <shawn.bower@gmail.com>
+Date:   Thu Dec 31 11:36:19 2015 -0500
+
+    adding features that allows the changing of the task description
+
+commit 8013edc837cdaf14a97458731ceec450bb6404f6
+Author: sbower <shawn.bower@gmail.com>
+Date:   Thu Dec 31 11:17:31 2015 -0500
+
+    add feature to reorder the list
+
+commit 5d9f862b6d3a98f21b3eab0f733d4bb57f723806
+Author: sbower <shawn.bower@gmail.com>
+Date:   Wed Dec 30 18:49:20 2015 -0500
+
+    udacitask_starter.rb renamed to udacitask.rb per specifications
+
+commit 1ed7dd3478d19295424cf838cd1cc958845e5493
+Author: sbower <shawn.bower@gmail.com>
+Date:   Wed Dec 30 18:41:50 2015 -0500
+
+    adding feture to build from JSON.  adding feature to uncomplete a todo
+
+commit e3f829cad6d1a877d624f818a2a82514becdaf9a
+Author: sbower <shawn.bower@gmail.com>
+Date:   Wed Dec 30 15:19:52 2015 -0500
+
+    creating item print function per specification
+
+commit 24090731c2bde337191a0c085ce097e706eafd2f
+Author: sbower <shawn.bower@gmail.com>
+Date:   Wed Dec 30 15:13:02 2015 -0500
+
+    first commit

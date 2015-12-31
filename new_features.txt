@@ -1,0 +1,6 @@
+# new_features.txt
+
+Feature #1: Reorder the items in the list
+Feature #2: Add ability to dump list to JSON
+Feature #3: Add ability to build list from JSON
+Feature #4: Change description name of tasks
